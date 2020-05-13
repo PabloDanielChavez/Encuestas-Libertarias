@@ -5,7 +5,7 @@ import java.awt.*;
 public class InicioLiberal extends JFrame implements ActionListener
 {
 	
-	private JLabel LabelImagen, LabelBienvenida, LabelDerechos;
+	private JLabel LabelImagen, LabelBienvenida;
 	private JButton BotonComenzar, BotonSalir;
 
 	public InicioLiberal()

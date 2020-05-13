@@ -5,14 +5,8 @@ import java.awt.*;
 public class FinalLiberal extends JFrame implements ActionListener
 {
 	
-	private JLabel LabelImagen, LabelBienvenida, LabelDerechos;
+	private JLabel LabelImagen, LabelBienvenida;
     private JButton BotonReiniciar, BotonSalir;
-    int ContadorUno = 0;
-    int ContadorDos = 0;
-    int ContadorTres = 0;
-    int ContadorCuatro = 0;
-    int ContadorCinco = 0;
-    int ContadorFinal = 0;
 
 	public FinalLiberal()
 	{
@@ -27,7 +21,7 @@ public class FinalLiberal extends JFrame implements ActionListener
         PagCuatroLiberal pagcuatroliberal = new PagCuatroLiberal();
         PagCincoLiberal pagcincoliberal = new PagCincoLiberal();
 
-		LabelBienvenida = new JLabel("Cuestionario Liberal " + ContadorFinal);
+		LabelBienvenida = new JLabel("Cuestionario Liberal ");
 		LabelBienvenida.setBounds(110,0,300,30);
 		LabelBienvenida.setFont(new Font("Andale Mono", 1, 18));
 		add(LabelBienvenida);

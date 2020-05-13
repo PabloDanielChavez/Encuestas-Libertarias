@@ -26,31 +26,6 @@ public class FinalLiberal extends JFrame implements ActionListener
         PagTresLiberal pagtresliberal = new PagTresLiberal();
         PagCuatroLiberal pagcuatroliberal = new PagCuatroLiberal();
         PagCincoLiberal pagcincoliberal = new PagCincoLiberal();
-        //ContadorUno = pagunoliberal.Contador1;
-        //ContadorDos = pagdosliberal.Contador2;
-        //ContadorTres = pagtresliberal.Contador3;
-        //ContadorCuatro = pagcuatroliberal.Contador4;
-        //ContadorCinco = pagcincoliberal.Contador5;
-        if(pagunoliberal.Contador1 == 1)
-        {
-            ContadorFinal += 1;
-        }
-        if(pagdosliberal.Contador2 == 1)
-        {
-            ContadorFinal += 1;
-        }
-        if(pagtresliberal.Contador3 == 1)
-        {
-            ContadorFinal += 1;
-        }
-        if(pagcuatroliberal.Contador4 == 1)
-        {
-            ContadorFinal += 1;
-        }
-        if(pagcincoliberal.Contador5 == 1)
-        {
-            ContadorFinal += 1;
-        }
 
 		LabelBienvenida = new JLabel("Cuestionario Liberal " + ContadorFinal);
 		LabelBienvenida.setBounds(110,0,300,30);

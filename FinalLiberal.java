@@ -36,10 +36,10 @@ public class FinalLiberal extends JFrame implements ActionListener
 		add(BotonReiniciar);
 		BotonReiniciar.addActionListener(this);
 
-		ImageIcon imagen = new ImageIcon("imagenes/fondo.png");
+		/*ImageIcon imagen = new ImageIcon("imagenes/fondo.png");
 		LabelImagen = new JLabel(imagen);
 		LabelImagen.setBounds(0,0,400,267);
-		add(LabelImagen);        
+		add(LabelImagen);*/        
 	}
 
 	public void actionPerformed(ActionEvent e)
@@ -63,7 +63,7 @@ public class FinalLiberal extends JFrame implements ActionListener
 	public static void main(String main[])
 	{
 		FinalLiberal finalliberal = new FinalLiberal();
-		finalliberal.setBounds(0,0,416,306);
+		finalliberal.setBounds(0,0,400,400); // finalliberal.setBounds(0,0,416,306);
 		finalliberal.setVisible(true);
 		finalliberal.setResizable(false);
 		finalliberal.setLocationRelativeTo(null);
